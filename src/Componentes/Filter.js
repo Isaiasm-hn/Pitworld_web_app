@@ -22,8 +22,8 @@ class Filter extends Component {
 
         return (
             <div className="container">
-                <div className="row">
-                    <div className="col d-flex align-content-start flex-wrap">{card
+                <div>
+                    <div className="col d-flex align-content-start ">{card
                     }</div>
                 </div>
             </div>

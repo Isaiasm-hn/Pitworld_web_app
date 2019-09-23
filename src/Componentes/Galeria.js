@@ -24,9 +24,13 @@ class Galeria extends Component {
   }
   render() {
     return (
-      <div class="big-banner">Nuestros Perros
-        <div class="jumbotron"><h2>Nuestros Miembros</h2></div>
-        <div>
+
+
+      <div className="container">
+        <div classname=" big-banner">
+          <h1>.</h1>
+          <h1>.</h1>
+          <div class="jumbotron"><h2>Nuestros Miembros</h2></div>
           <Filter
             cards={this.state.cards}
             cardSelect={cardId => this.cardSelect(cardId)}
@@ -45,7 +49,6 @@ class Galeria extends Component {
               }
             /> </div>
         </div>
-
       </div>
 
     );

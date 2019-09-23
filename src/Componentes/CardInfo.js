@@ -20,6 +20,7 @@ class CardInfo extends Component {
                         <h4 class="card-title">{card.name}</h4>
                         <h6>Edad:<small>  {card.edad}</small></h6>
                         <h5>Raza:<small>  {card.raza}</small></h5>
+                        <h5>Descripcion</h5>
                         <p class="card-text">{card.description}</p>
                     </div>
                 </div>

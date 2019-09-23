@@ -1,18 +1,22 @@
 .App {
   text-align: center;
+  background-color: #2d353b;
 }
 div.login {
   position: absolute;
   right: 150px;
   width: 200px;
   height: 120px;
+
  
 } 
 .nav-item{
   color: white;
+   
 }
 .navbar-brand{
   color: white
+
 }
 
 body {
@@ -22,12 +26,12 @@ body {
 .big-banner{
   background-image: url('./Img/isotipo.png');
   background-size:100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-position:unset;
+
+
 
 
 }
+
 .card {
   text-align: center;
   max-width: 460px;
