@@ -1,5 +1,7 @@
 import React from 'react';
 import imagen from '../Img/Logotipo.png';
+import fb from '../Img/fb.png';
+import insta from '../Img/insta.png';
 import '../App.css';
 import {
   FacebookShareCount
@@ -11,7 +13,7 @@ function Inicio() {
     <div className='container'>
       <div className="container">
         <h1>.</h1>
-        <img src={imagen} class="rounded" alt="Cinque Terre" width="800" height="350" />
+        <img src={imagen} class="rounded" alt="Cinque Terre" class="img-responsive" width="800" height="350" />
         <h1>_</h1>
         <div className="jumbotron">
           <h1>¿Quienes Somos?</h1>
@@ -37,7 +39,14 @@ function Inicio() {
         </div>
         <div className="jumbotron">
           <h1>¿Contacto?</h1>
-          <FacebookShareCount url={'https://www.facebook.com/PitworldAssociation/'} />
+        </div>
+        <div className="row">
+          <div className="col-sm-6 text-light">
+          <p><a href="https://www.facebook.com/PitworldAssociation/" target="_blank"><img src={fb} class="rounded" alt="Cinque Terre" class="img-responsive" width="300" height="100" /></a></p>
+          </div>
+          <div class="col-sm-6 text-light">
+          <p><a href="https://www.instagram.com/pitworldassociation/" target="_blank"><img src={insta} class="rounded"href="https://www.facebook.com/PitworldAssociation/" alt="Cinque Terre" class="img-responsive" width="300" height="100" /></a></p>
+          </div>
         </div>
       </div>
     </div>

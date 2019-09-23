@@ -7,7 +7,7 @@ function Eventos() {
             <h5>.</h5>
             <h5>.</h5>
             <div class="jumbotron"><h2>Iron Pitbull Club</h2>
-                <h3>17 Octubre Reto</h3></div>
+                <h3>27 Octubre Reto</h3></div>
             <img src={imagen} class="rounded" alt="Cinque Terre"/>
         </div>
             );
