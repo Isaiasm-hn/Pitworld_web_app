@@ -7,8 +7,10 @@ function Inicio() {
     <div className='container'>
       <div className="container">
         <div className="jumbotron text-light">
+
           <h1>¿Quienes Somos?</h1>
         </div>
+        
         <div className="row">
           <div className="col-sm-6">
             <h3>Misión</h3>
